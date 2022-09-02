@@ -68,7 +68,7 @@ void permutation(int n, int container[], int factorial) {
                 if (k != n - 1) {
                     cout << container[k] << ", ";
                 } else {
-                    cout << container[k] << "}" << " LOOP 1 " << endl;
+                    cout << container[k] << "}" << endl;
 
                 }
 
@@ -86,7 +86,7 @@ void permutation(int n, int container[], int factorial) {
                     if (k != n - 1) {
                         cout << container[k] << ", ";
                     } else {
-                        cout << container[k] << "}" << " LOOP 2 " << endl;
+                        cout << container[k] << "}" << endl;
 
                     }
                 }
@@ -109,7 +109,7 @@ void permutation(int n, int container[], int factorial) {
                     if (k != n - 1) {
                         cout << container[k] << ", ";
                     } else {
-                        cout << container[k] << "}" << " LOOP 3 " << endl;
+                        cout << container[k] << "}" << endl;
 
                     }
                 }*/
@@ -149,7 +149,7 @@ if (n % 2 != 0 && n > 1 ) {
                 if (k != n - 1) {
                     cout << container[k] << ", ";
                 } else {
-                    cout << container[k] << "}" << " LOOP 1 " << endl;
+                    cout << container[k] << "}" << endl;
 
                 }
 
@@ -167,7 +167,7 @@ if (n % 2 != 0 && n > 1 ) {
                     if (k != n - 1) {
                         cout << container[k] << ", ";
                     } else {
-                        cout << container[k] << "}" << " LOOP 2 " << endl;
+                        cout << container[k] << "}" <<endl;
 
                     }
                 }
@@ -191,7 +191,7 @@ if (n % 2 != 0 && n > 1 ) {
                     if (k != n - 1) {
                         cout << container[k] << ", ";
                     } else {
-                        cout << container[k] << "}" << " LOOP 3 " << endl;
+                        cout << container[k] << "}" <<  endl;
 
                     }
                 }
