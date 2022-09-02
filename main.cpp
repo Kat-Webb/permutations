@@ -12,7 +12,7 @@ int main() {
     cout << "Please enter an integer between 1 and 25: ";
     cin >> n;
 
-    if (isnan(n) || n < 0 || n > 25){
+    while (isnan(n) || n < 0 || n > 25){
         cout << "That value is not valid. Please enter a number between 1 and 25.";
         cin >> n;}
     for(int i = n; i > 0; i-- ){
