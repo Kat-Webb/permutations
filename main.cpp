@@ -6,7 +6,7 @@ void permutation(int n, int container[], int factorial);
 
 int main() {
     int n;
-    int factorial = 1;
+    signed long int factorial = 1;
 
 
     cout << "Please enter an integer between 1 and 25: ";
